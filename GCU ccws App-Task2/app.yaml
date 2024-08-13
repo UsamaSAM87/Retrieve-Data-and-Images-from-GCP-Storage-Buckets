@@ -1,0 +1,26 @@
+runtime: nodejs18 
+
+service: task2
+
+
+handlers:
+  - url: /.*
+    script: auto 
+
+env_variables:
+  NODE_ENV: production 
+  GOOGLE_APPLICATION_CREDENTIALS: >
+    {
+      "type": "service_account",
+      "project_id": "boreal-axiom-415114",
+      "private_key_id": "a888d7ba8b2b81ab92681bdfcef3d346d57eb388",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCrNfZDHladLHWz\nfx3149aEHvr4CtzpyDrdTS/AlGt/DxW9fOVjVFmsbyiGjluI1bK5GxzHEyII9G5h\ni2RhVVeI8d/3aAl7hH9rWsjpT8RtytiGIc8aU5b15Oo7+l7uMI0QuH82V30bymAl\nF+2MN0y9JX5VEwCYbvZOvpVIy+tERu1VbOzXh5M8PbE/eue2icfYFvDF9PDeyTp9\nGyTERsTrtaPJmCpmg7sBIal1the50StGyVBHmThde7nfBFvwq402vL2AF4bk87z6\n/evY0GT1CJvlJ1cUy3Y8B/+d3j2ShjdTr8rnf67iom7ukJgemArXaJi/E+rYxwqV\n++kUxbBlAgMBAAECgf9ZneVJPJgZrSvuyJrmGlwuzAiRzR3VQPmO3Ngh9Y5O85Zt\nmPJ5C63klEqiI+HFvhXOzmJB0cH+7fLZHB1u1Tz8cZ7J4asU/EW1688+UIKA9axg\niVHedeKO00PIIUWPZ9pu5iOwThsucL/iqqOswUVpvDZkUY3+PBaxIREDCbocAii/\nHqAk1yhQEOLBuxzYDR5ntB0dJb2jtwkfnBhZ4GnS93EVPZXNXRh8JM7EyCaVyjfQ\nlntbFqQprf8Xt6VphV5mINAa+0+N2AaUp2HOzupmj5uO4Cb0AGxVVIYaj/8BRbB0\nWVu9CGWraBINajFj8EGlSPhrHHag4M2kXVBMpQECgYEA3LDhto1E/3oxzfXLlXNP\nOpPTIXlCpg2P19/icOJIPHRTsvQu8Z38Lfq15UAubswZDxpQURwrsy2SVR3gbsxb\njkKjKn7VOBMIzWMFxirWxhbpqtiwR35tEZnwwffEJ9DDP2ptfm7jarufVa9dave1\n0rVta6BDXrSuzJU2oTbWBgUCgYEAxpp1fHkhhheW+KQ1TVfuNIOmKXB+/OVeTeho\nC9aV6I9+FvKsuLOcws6PgYK7ZVyjeKFhgTAR0wkW8Kbw1+EgpznWTchWhxwhOzNT\n63vwmLy7lR6ldxQqF5NHRl9AGmd1OWN0U/IhvRRIXw6C8kzXbmt0RJy/lEe9oFo9\nuTm3ruECgYAt5sBbltB2DrVTMD9yyzP8bAiq2qzJGuMDNHbFodsCb/OEshMdgA2W\nhqHUl9/QfbTslj2EUUapkt3vxDIM+YZFdYi4av7wFc1r4p+t0vUu6E8bkMxBYoNO\n+OTBg0YSPfKOOxWhCXFVnsaKLNpSSElSFRg4HXJFvXDp7lMZfu1O/QKBgDmnQy3k\nOCAmHvSFLtgKC6OBCC6FcsfVif/R1MqC+7esWC0vO4bO1VYUAsLVAbOWJfpx1s1a\n+AGsZNVtkQMKXqFM//JKkxvbxaXa66SzsQ+V0lqir+QWnXWEkq9SHVjM6dHEFlP8\nOWEbTzsRCmBugCeU2AbG/jJ8dQbky4BGyhThAoGATiRKa8jRulTDG3dYPCTpL2lb\nw9iGsxGUSZFbIWSYq05BN0EUp8SF8fyE7rePG8DuBgmF69VSiOUdUvo9EBxa6YtZ\n52rPifZ7R0yPeAyLX9T1lBrkettA6nXzOB6i5IuAAM/GIOnMOFrVv9N60GHaeSc9\nvw2fHM6M6Pa7/6wWsJ4=\n-----END PRIVATE KEY-----\n",
+      "client_email": "cw1-servaccount@boreal-axiom-415114.iam.gserviceaccount.com",
+      "client_id": "109219613511984668006",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cw1-servaccount%40boreal-axiom-415114.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  

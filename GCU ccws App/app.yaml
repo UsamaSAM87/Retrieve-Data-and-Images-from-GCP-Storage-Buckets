@@ -1,0 +1,10 @@
+runtime: nodejs18 # Specify the Node.js runtime version
+
+handlers:
+  - url: /.*
+    script: auto # This will route all requests to your app's main script
+
+service: task1d
+
+env_variables:
+  NODE_ENV: production 
